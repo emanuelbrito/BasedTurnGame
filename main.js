@@ -41,7 +41,7 @@ while (finDelJuego === false) {
           console.log("gana jugador A");
         } else{
             /* Empate*/
-            console.log("no gana nadie");
+            console.log("no gana nadie.");
         }
         finDelJuego = true;
     } 
