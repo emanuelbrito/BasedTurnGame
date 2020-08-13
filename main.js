@@ -38,7 +38,7 @@ while (finDelJuego === false) {
             console.log("Gana jugador B");  
         } else if ( vidaJugadorB < 0 && vidaJugadorA > 0){
           /*gana jugador A */
-          console.log("Gana jugador A");
+          console.log("Gana jugador A.");
         } else{
             /* Empate*/
             console.log("no gana nadie");
