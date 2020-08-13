@@ -35,13 +35,13 @@ while (finDelJuego === false) {
         /* logica */
         if (vidaJugadorA < 0 && vidaJugadorB > 0) {
             /*gana jugador B*/
-            console.log("gana jugador B");  
+            console.log("Gana jugador B");  
         } else if ( vidaJugadorB < 0 && vidaJugadorA > 0){
           /*gana jugador A */
-          console.log("gana jugador A");
+          console.log("Gana jugador A");
         } else{
             /* Empate*/
-            console.log("no gana nadie.");
+            console.log("no gana nadie");
         }
         finDelJuego = true;
     } 
